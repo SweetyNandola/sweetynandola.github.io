@@ -137,17 +137,6 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
-function openModal(imageSrc, description) {
-  document.getElementById("imageModal").style.display = "block";
-  document.getElementById("modalImage").src = imageSrc;
-  document.getElementById("modalDesc").innerHTML = description;
-}
-
-function closeModal() {
-  document.getElementById("imageModal").style.display = "none";
-}
-
-
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
